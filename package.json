@@ -1,7 +1,7 @@
 {
-  "name": "electron-cra-example",
+  "name": "electron-react-boilerplate",
   "version": "0.1.0",
-  "productName": "Electron Create React App Example",
+  "productName": "Electron Create React App Boilerplate",
   "main": "electron/main.js",
   "private": true,
   "dependencies": {
