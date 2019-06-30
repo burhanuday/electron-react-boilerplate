@@ -11,7 +11,8 @@
   },
   "homepage": "./",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "export BROWSER=none && react-scripts start",
+    "start-win": "set BROWSER=none && react-scripts start",
     "start-electron": "export ELECTRON_START_URL=http://localhost:3000 && electron .",
     "start-electron-win": "set ELECTRON_START_URL=http://localhost:3000 && electron .",
     "clean": "rm -rf build dist",
