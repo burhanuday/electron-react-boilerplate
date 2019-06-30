@@ -31,8 +31,8 @@
     ],
     "publish": {
       "provider": "github",
-      "repo": "electron-cra-example",
-      "owner": "johndyer24"
+      "repo": "electron-react-boilerplate",
+      "owner": "burhanuday"
     }
   },
   "eslintConfig": {
