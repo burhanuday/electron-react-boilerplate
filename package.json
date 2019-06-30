@@ -19,7 +19,8 @@
     "build": "react-scripts build",
     "build-electron": "mkdir build/src && cp -r electron/. build/electron && cp -r src/shared/. build/src/shared",
     "build-electron-win": "mkdir build/src && robocopy electron build/electron /s && robocopy src/shared build/src/shared /s",
-    "package": "build --win -c.extraMetadata.main=build/electron/main.js --publish never",
+    "package": "build --mac --win -c.extraMetadata.main=build/electron/main.js --publish never",
+    "package-win": "build --win -c.extraMetadata.main=build/electron/main.js --publish never",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
