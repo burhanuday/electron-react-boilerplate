@@ -10,11 +10,16 @@ This is an example electron/create-react-app application, and serves as an examp
 - `package.json`: Contains scripts for running the app in development, building it, and packaging it for production using electron-builder
 
 ## Development
+
 - Run `npm start` to start the react development server
 - After that, run `npm run start-electron` in a different terminal to start the electron app
 
 ## Build and package
+
 - Run `npm run package` to compile react, copy files and then package your app
 - A new `dist` folder will be created in the root of your project containing the executable files
 NOTE: add `--mac` to the `postpackage` script besides `--win` if you are on a mac computer
 
+## Contributing
+
+Open a new PR to contribute
