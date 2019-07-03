@@ -23,3 +23,7 @@ NOTE: add `--mac` to the `postpackage` script besides `--win` if you are on a ma
 ## Contributing
 
 Open a new PR to contribute
+
+## License
+
+MIT
