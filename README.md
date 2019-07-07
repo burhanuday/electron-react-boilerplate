@@ -6,6 +6,7 @@ This is an example electron/create-react-app application, and serves as an examp
 
 - Clone this repository
 - cd into the directory and run `npm install`
+- Delete git files `rm -rf .git`
 
 ## Development
 
