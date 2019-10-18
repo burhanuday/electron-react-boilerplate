@@ -26,7 +26,8 @@ This is an example electron/create-react-app application, and serves as an examp
 - `src/shared/`: Code shared between React and Electron
 - `package.json`: Contains scripts for running the app in development, building it, and packaging it for production using electron-builder
 
-## Contributing
+## To do
+- Use Concurrently to run `npm start` and `npm run start-electron` both at once
 
 Open a new PR to contribute
 
