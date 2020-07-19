@@ -1,6 +1,6 @@
-# Electron Create React Example
+# Electron Create React
 
-This is an example electron/create-react-app application, and serves as an example of how to structure your project if you want to share pieces of your codebase between electron and react.
+A boilerplate with zero dependencies other than React. Easy to use with single command run and packaging scrips
 
 ## Usage
 
@@ -10,8 +10,7 @@ This is an example electron/create-react-app application, and serves as an examp
 
 ## Development
 
-- Run `npm start` to start the react development server
-- After that, run `npm run start-electron` in a different terminal to start the electron app
+- Run `npm start` to start electron and react concurrently
 
 ## Build and package
 
