@@ -1,4 +1,6 @@
-# Electron Create React
+![header](./src/assets/images/header.png)
+
+# Electron Create React App
 
 A boilerplate with zero dependencies other than React. Easy to use with single command run and packaging scripts
 
