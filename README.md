@@ -7,8 +7,8 @@ A boilerplate with zero dependencies other than React. Easy to use with single c
 ## Usage
 
 - Clone this repository
-- Delete git files `rm -rf .git`
-- cd into the directory and run `npm install`
+- `cd` into the directory and delete git files `rm -rf .git`
+- Run `npm install`
 
 ## Development
 
