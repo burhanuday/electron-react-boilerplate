@@ -1,12 +1,12 @@
 # Electron Create React
 
-A boilerplate with zero dependencies other than React. Easy to use with single command run and packaging scrips
+A boilerplate with zero dependencies other than React. Easy to use with single command run and packaging scripts
 
 ## Usage
 
 - Clone this repository
-- cd into the directory and run `npm install`
 - Delete git files `rm -rf .git`
+- cd into the directory and run `npm install`
 
 ## Development
 
