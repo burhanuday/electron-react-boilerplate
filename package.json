@@ -11,8 +11,9 @@
   },
   "homepage": "./",
   "scripts": {
-    "start": "react-scripts start",
-    "start-electron": "cross-env ELECTRON_START_URL=http://localhost:3000 electron .",
+    "start": "npm-run-all -p start-react start-electron",
+    "start-react": "BROWSER=none react-scripts start",
+    "start-electron": "wait-on tcp:3000 && cross-env ELECTRON_START_URL=http://localhost:3000 electron .",
     "clean": "shx rm -rf build dist",
     "prepackage": "react-scripts build",
     "package": "shx mkdir build/src && shx cp -r electron/. build/electron && shx cp -r src/shared/. build/src/shared",
@@ -44,6 +45,8 @@
     "cross-env": "^5.2.1",
     "electron": "^7.3.2",
     "electron-builder": "^20.44.4",
-    "shx": "^0.3.2"
+    "npm-run-all": "^4.1.5",
+    "shx": "^0.3.2",
+    "wait-on": "^5.1.0"
   }
 }
